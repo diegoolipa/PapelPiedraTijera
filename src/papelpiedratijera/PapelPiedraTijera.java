@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Dell-UPN
+ * @author diegoolipa
  */
 public class PapelPiedraTijera {
 
@@ -49,7 +49,7 @@ public class PapelPiedraTijera {
     };
     
     private boolean jugar(){
-        System.out.println("¿Quieres jugar otra vez? (si/no):");
+        System.out.println("Quieres jugar otra vez? (si/no):");
         String sn = scanner.nextLine();
         if (sn == "si") {
             scanner.close();
